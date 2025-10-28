@@ -1,5 +1,6 @@
 import { useReducer } from "react";
 import "./App.css";
+import Form from "./Form";
 
 function App() {
   const initialState = {
@@ -41,6 +42,10 @@ function App() {
       <button onClick={handleReset}>Reset</button>
 
       <h4>Count: {count}</h4>
+
+      <hr />
+
+      <Form />
     </>
   );
 }
